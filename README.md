@@ -23,12 +23,9 @@ After pulling the image, run the Docker container using the following command:
 Once the container is running, you can access the Streamlit server by opening your web browser and navigating to `http://localhost:8080`.
 
 ## Application Usage
-- Upon accessing the application, you will be able to input the necessary parameters (such as month and year) to get predictions for the number of scanned receipts in 2022.
-- The application will utilize the provided time series model to generate predictions based on the input data from 2021.
+- Upon accessing the application, you will be able to input the necessary parameters (such as number of days or any specific month) to get predictions for the number of scanned receipts in 2022.
+- The application will utilize the SARIMAX time series model to generate predictions based on the input data from 2021.
 
 Feel free to explore the application and adjust the input parameters to see different predictions for the scanned receipts in 2022.
-
-## Issues and Contributions
-If you encounter any issues with the application or would like to contribute to its development, please create a new issue or submit a pull request on the [GitHub repository](https://github.com/sushantmenon1/fetchrewards).
 
 Enjoy predicting the scanned receipts for 2022 using the FetchRewards Time Series Prediction Application!
