@@ -2,6 +2,8 @@
 
 This Dockerized application allows you to predict the number of scanned receipts for a given month of 2022 based on 2021 data. The application utilizes a time series model to make predictions.
 
+![Capture](https://github.com/sushantmenon1/Time-Series/assets/74258021/e5341c98-0516-403c-b1da-ce5cbf9959b1)
+
 ## Prerequisites
 Before running the application, make sure you have Docker installed on your system. If you haven't installed Docker yet, you can download and install it from [Docker's official website](https://www.docker.com/get-started).
 
