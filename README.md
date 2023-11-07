@@ -13,11 +13,13 @@ Follow these steps to run the application on your local machine:
 
 2. **Pull the Docker Image:**
    Open your terminal or command prompt and execute the following command to pull the Docker image from Docker Hub:
+   `docker pull sushantmenon1/fetchrewards:v1.0`
 
-3. **Run the Application:**
+4. **Run the Application:**
 After pulling the image, run the Docker container using the following command:
+`docker run -p 8080:8051 sushantmenon1/fetchrewards:v1.0`
 
-4. **Access the Application:**
+6. **Access the Application:**
 Once the container is running, you can access the Streamlit server by opening your web browser and navigating to `http://localhost:8080`.
 
 ## Application Usage
