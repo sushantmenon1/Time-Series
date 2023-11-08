@@ -16,17 +16,17 @@ Follow these steps to run the application on your local machine:
    docker pull sushantmenon1/fetchrewards:v1.0
    ```
 
-4. **Run the Application:**
-After pulling the image, run the Docker container using the following command:
-```bash
-docker run -p 8080:8051 sushantmenon1/fetchrewards:v1.0
-```
+2. **Run the Application:**
+   After pulling the image, run the Docker container using the following command:
+   ```bash
+   docker run -p 8080:8051 sushantmenon1/fetchrewards:v1.0
+   ```
 
-6. **Access the Application:**
-Once the container is running, you can access the Streamlit server by opening your web browser and navigating to
-```bash
-http://localhost:8080
-```
+3. **Access the Application:**
+   Once the container is running, you can access the Streamlit server by opening your web browser and navigating to
+   ```bash
+   http://localhost:8080
+   ```
 
 ## Application Usage
 - Upon accessing the application, you will be able to input the necessary parameters (such as number of days or any specific month) to get predictions for the number of scanned receipts in 2022.
